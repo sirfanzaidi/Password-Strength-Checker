@@ -4,14 +4,14 @@ import streamlit as st
 # Page Styling
 st.set_page_config(page_title="Password Strength Checker by Irfan Zaidi", page_icon="🌒", layout="centered")
 
-# Custom CSS for Center Alignment
+# Custom CSS for Center Alignment and Better Button Color
 st.markdown("""
     <style>
         .main {text-align: center;}
         .stTextInput > div > div > input {width: 60% !important; margin: auto; text-align: center;}
         .stButton {display: flex; justify-content: center;}
-        .stButton button {width: 50%; background-color: #CAF50; color: white; font-size: 18px;}
-        .stButton button:hover {background-color: #45a049;}
+        .stButton button {width: 50%; background-color: #008CBA; color: white; font-size: 18px; border-radius: 8px; padding: 10px;}
+        .stButton button:hover {background-color: #005F7F;}
     </style>
 """, unsafe_allow_html=True)
 
